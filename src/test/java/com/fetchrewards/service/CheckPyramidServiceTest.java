@@ -43,7 +43,7 @@ public class CheckPyramidServiceTest {
 
     @Test
     public void testIsPyramid_OnlyOneKindOfLetter() {
-        boolean result = checkPyramidService.isPyramid("a");
+        boolean result = checkPyramidService.isPyramid("aaaaa");
         Assert.assertEquals(false, result);
     }
 
